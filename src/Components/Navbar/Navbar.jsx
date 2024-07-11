@@ -9,6 +9,7 @@ const Navbar = () => {
             <li>about</li>
             <li className='contact'>content</li>
         </ul>
+        <i className="fas fa-bars"></i>
     </div>
   )
 }
