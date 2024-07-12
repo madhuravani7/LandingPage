@@ -20,14 +20,14 @@ const App = () => {
     }
   ]
 
-  const [heroCount, setHeroCount] = useState(2);
+  const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);
 
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     setHeroCount((count) => {return count===2? 0: count+1})
-  //   }, 3000);
-  // }, []);
+  useEffect(() => {
+    setInterval(() => {
+      setHeroCount((count) => {return count===2? 0: count+1})
+    }, 3000);
+  }, []);
 
   return (
     <div>

@@ -1,6 +1,6 @@
 import './Background.scss'
 import video2 from '../../assets/video2.mp4'
-import bmw from '../../assets/bmw.jpg'
+import desert from '../../assets/desert.png'
 import merce from '../../assets/merce.jpg'
 import audi from '../../assets/audi.jpg'
 
@@ -15,7 +15,7 @@ const Background = ({playStatus, heroCount}) => {
     }
     else if(heroCount === 0){
         return (
-            <img src={bmw} className='background fade-in' alt="car" />
+            <img src={desert} className='background fade-in' alt="car" />
         )
     }
     else if(heroCount === 1){

@@ -1,52 +1,53 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 4rem;
     color: white;
     height: 5rem;
-
-    .nav-logo{
-        font-family: 'Outfit', sans-serif;
-        font-size: 2.5rem;
-        font-weight: bold;
+  
+    .nav-logo {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
     }
-
-    .nav-menu{
-        display: flex;
-        align-items: center;
-        list-style: none;
-        font-size: 1.7rem;
-        gap: 4rem;
-        color: #fff;
-        text-transform: capitalize;
-        
-        li{
-            border: .2rem;
-            padding: 1rem;
-            width: 7rem;
-            text-align: center;
-            cursor: pointer;
-
-            &:hover{
-                text-decoration: underline;
-            }
+  
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      font-size: 1.7rem;
+      gap: 4rem;
+      color: #fff;
+      text-transform: capitalize;
+  
+      li {
+        border: .2rem;
+        padding: 1rem;
+        width: 7rem;
+        cursor: pointer;
+  
+        &:hover {
+          text-decoration: underline;
         }
-
-        .contact{
-            border-radius: 2rem;
-            padding: 1rem 5rem ;
-            background-color: white;
-            color: black;
-            &:hover{
-                text-decoration: none;
-            }
+      }
+  
+      .contact {
+        border-radius: 2rem;
+        padding: 1rem 5rem;
+        background-color: white;
+        color: black;
+  
+        &:hover {
+          text-decoration: none;
         }
-
+      }
     }
-
-    i{
-        font-size: 2.5rem;
-        display: none;
+  
+    i {
+      font-size: 2.5rem;
+      display: none;
+      cursor: pointer;
     }
-}
+  }
+  
